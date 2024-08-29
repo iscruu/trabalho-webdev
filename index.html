@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="estilo.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <ol>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ol>
+    </header>
+    <div id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>
+        Olá! Meu nome é Max Lima, tenho 18 anos e sou um estudante universitário
+        de Fortaleza, Ceará. No meu tempo livre, gosto de correr e tocar algum
+        instrumento musical. Ingressei na Uninter em fevereiro de 2024, com o
+        objetivo de aprimorar meus conhecimentos e habilidades. <br>Sou dedicado e
+        sempre estou procurando novos desafios para aprimorar minhas habilidades
+        pessoais e profissionais.
+      </p>
+    </div>
+
+    <div id="educacao">
+      <h2>Educação</h2>
+      <ul>
+        <li>Ensino Básico: Liceu de Caucaia | Completo</li>
+        <li>Ensino Superior: Uninter | Cursando</li>
+        <li>
+          Idiomas: Inglês | Intermediário <br />
+          Espanhol | Básico
+        </li>
+      </ul>
+    </div>
+
+    <div id="portfolio">
+      <h2>Portfólio</h2>
+      <p>Link para meu GitHub</p>
+      <br />
+      <a href="https://github.com/iscruu">GitHub</a>
+    </div>
+
+    <div id="contato">
+      <h2>Contato</h2>
+      <p>
+        Estou disponível para trabalhar no seu projeto! Digite seu nome, email e deixe um comentário.
+      </p>
+      <form action class="form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Digite seu email"
+          required
+        />
+        <label for="comente">Comentário:</label>
+        <textarea
+          id="comente"
+          rows="4"
+          maxlength="500"
+          placeholder="Escreva-me um comentário"
+          required
+        ></textarea>
+        <input type="submit" value="Enviar" id="botao" />
+      </form>
+    </div>
+  </body>
+</html>
